@@ -60,6 +60,10 @@ input::placeholder {
     align-items: center;
 }
 
+#t2{
+    border: none !important;
+}
+
 #t2::placeholder {
     color: #c2bfbfc4;
 }
