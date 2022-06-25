@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cutosm.css">
+    
+</head>
+<body>
+  <div class="inputs">
+    <div class="box-main box-main2">
+      <input type="text" id="t1" class="form-control mb-3"  placeholder="Enter Number" />
+      <input type="text" id="t2" class="form-control mb-3" placeholder="Output" disabled />
+      <button onclick="f()">Calc</button>
+    </div>
+  </div>
+   
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        function f()
+        {
+            document.getElementById('t2').value =
+                document.getElementById('t1').value * 10;
+        }
+    </script>
+</body>
+</html>
